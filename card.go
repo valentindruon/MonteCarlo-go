@@ -1,8 +1,6 @@
 package montecarlo
 
-import "math/rand"
-
 type Card struct {
-  val int,
-  color int
+  Val int64
+  Color int64
 }
